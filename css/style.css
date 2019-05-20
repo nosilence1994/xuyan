@@ -1823,9 +1823,9 @@ form input.white[type="reset"] {
 	color: #003478;
 }
 
-@media screen and (max-width: 990px) {
+@media screen and (max-width: 1200px) {
 	.main-navigation .menu-toggle {
-		display: block;
+		/*display: block;*/
 	}
 }
 
@@ -1844,9 +1844,12 @@ form input.white[type="reset"] {
 	height: 0;
 }
 
-@media screen and (max-width: 990px) {
+@media screen and (max-width: 1200px) {
+    .main-navigation {
+        float: none;
+    }
 	.main-navigation .menu {
-		display: none;
+		/*display: none;*/
 	}
 }
 
@@ -1885,7 +1888,7 @@ form input.white[type="reset"] {
 	display: none;
 }
 
-@media screen and (min-width: 991px) {
+@media screen and (min-width: 1200px) {
 	.mobile-navigation {
 		display: none !important;
 	}
@@ -2832,14 +2835,17 @@ figure img {
 	color: white;
 	padding: 16px 0 16px;
 }
+
 .site-footer img{
     max-height:80px;
     width: auto;
     margin: 0 10px 0 10px;
 }
+
 .site-footer h3{
     letter-spacing: 2px;
 }
+
 .widget {
 	margin-bottom: 30px;
 }

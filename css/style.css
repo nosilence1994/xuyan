@@ -1825,7 +1825,7 @@ form input.white[type="reset"] {
 
 @media screen and (max-width: 1200px) {
 	.main-navigation .menu-toggle {
-		/*display: block;*/
+		display: block;
 	}
 }
 
@@ -1846,10 +1846,10 @@ form input.white[type="reset"] {
 
 @media screen and (max-width: 1200px) {
     .main-navigation {
-        float: none;
+        /*float: none;*/
     }
 	.main-navigation .menu {
-		/*display: none;*/
+		display: none;
 	}
 }
 

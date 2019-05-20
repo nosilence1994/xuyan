@@ -504,9 +504,9 @@ form input.white[type="reset"] {
 	}
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1201px) {
 	.container {
-		width: 1170px;
+		width: 1200px;
 	}
 }
 

@@ -2827,9 +2827,19 @@ figure img {
  * Footer Styles
  */
 .site-footer {
-	padding: 16px 0;
+	background-size: cover;
+	text-align: center;
+	color: white;
+	padding: 16px 0 16px;
 }
-
+.site-footer img{
+    max-height:80px;
+    width: auto;
+    margin: 0 10px 0 10px;
+}
+.site-footer h3{
+    letter-spacing: 2px;
+}
 .widget {
 	margin-bottom: 30px;
 }

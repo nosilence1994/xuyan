@@ -267,9 +267,9 @@ html {
 }
 
 body {
-	color: #8e9ca5;
+	/*color: #8e9ca5;*/
 	font-family: "Roboto", "Open Sans", sans-serif;
-	font-weight: 300;
+	font-weight: 500;
 	line-height: 1.5;
 }
 
@@ -1845,9 +1845,10 @@ form input.white[type="reset"] {
 }
 
 @media screen and (max-width: 1200px) {
-    .main-navigation {
-        /*float: none;*/
-    }
+	.main-navigation {
+		/*float: none;*/
+	}
+
 	.main-navigation .menu {
 		display: none;
 	}
@@ -2292,7 +2293,7 @@ form .cta input[type="reset"] {
 }
 
 .checked-box h3 {
-	font-weight: 300;
+	/*font-weight: 300;*/
 	color: #003478;
 	margin-bottom: 10px;
 }
@@ -2371,6 +2372,7 @@ ol.circle li h3 {
 	font-weight: 400;
 	font-style: normal;
 }
+
 .boxed {
 	border-radius: 5px;
 	border: 1px solid #edf2f4;
@@ -2378,23 +2380,26 @@ ol.circle li h3 {
 	padding: 20px 20px 20px 20px;
 	position: relative;
 	margin: 0px 0px 30px 0px;
-    font-size: 18px;
+	font-size: 18px;
 }
-.boxed p{
-    margin-top:5px;
+
+.boxed p {
+	margin-top: 5px;
 }
-.boxed img{
-    max-width:100%;
-    border: 2px solid #ddd;
-    padding: 2px;
-    background: #fff;
+
+.boxed img {
+	max-width: 100%;
+	border: 2px solid #ddd;
+	padding: 2px;
+	background: #fff;
 }
-.boxed ol{
-    margin-left:40px;
+
+.boxed ol {
+	margin-left: 40px;
 }
-.boxed-font-red {
-    
-}
+
+.boxed-font-red {}
+
 .boxed-news {
 	border-radius: 8px;
 	border: 1px solid #edf2f4;
@@ -2712,15 +2717,15 @@ ol.circle li h3 {
 	max-width: 100%;
 	width: 100%;
 	height: auto;
-    border: 2px solid #ddd;
-    padding: 2px;
-    background: #fff;
+	border: 2px solid #ddd;
+	padding: 2px;
+	background: #fff;
 }
 
 .research-list .research .research-title {
 	font-size: 18px;
 	font-size: 1.2em;
-	font-weight: 300;
+	font-weight: 500;
 }
 
 .research-desc {
@@ -2862,14 +2867,14 @@ figure img {
 	padding: 16px 0 16px;
 }
 
-.site-footer img{
-    max-height:80px;
-    width: auto;
-    margin: 0 10px 0 10px;
+.site-footer img {
+	max-height: 80px;
+	width: auto;
+	margin: 0 10px 0 10px;
 }
 
-.site-footer h3{
-    letter-spacing: 2px;
+.site-footer h3 {
+	letter-spacing: 2px;
 }
 
 .widget {

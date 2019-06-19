@@ -2852,6 +2852,7 @@ figure img {
 	border: 1px solid #dde7ea;
 	padding: 20px;
 	margin-bottom: 30px;
+	min-height: 320px;
 }
 
 .contact-form input:not([type="submit"]),
